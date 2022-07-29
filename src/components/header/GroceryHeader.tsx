@@ -62,7 +62,7 @@ const GroceryHeader: React.FC<HeaderProps> = ({ className }) => {
         <FlexBox className="logo" alignItems="center" mr="1rem">
           <Link href="/">
             <a>
-              <img src="/assets/images/logo.svg" alt="logo" />
+              <img src="/assets/images/SendMyFeelings-01.png" alt="logo" />
             </a>
           </Link>
         </FlexBox>

@@ -111,7 +111,7 @@ const Header: React.FC = () => {
               <Image
                 width="96px"
                 height="44px"
-                src="/assets/images/logo.svg"
+                src="/assets/images/SendMyFeelings-01.png"
                 alt="logo"
               />
             </Box>
