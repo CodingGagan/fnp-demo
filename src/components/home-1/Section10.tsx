@@ -42,7 +42,7 @@ const Section10: React.FC = () => {
                     width="52px"
                     objectFit="contain"
                   /> */}
-        <img src={productDatabase[ind * 13 + 100].imgUrl} style={{objectFit: 'contain', height: '52px', width: '52px'}} />
+        <img src={"https://www.fnp.com/assets/images/custom/new-desk-home/plants/Air-Purifying-Plants-6-aug-2021.jpg"} style={{objectFit: 'contain', height: '52px', width: '52px'}} />
 
                   <Typography fontWeight="600" fontSize="14px" ml="10px">
                     {item}

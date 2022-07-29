@@ -45,7 +45,7 @@ const Products = () => {
         <Link href={item.href} key={ind}>
           <TableRow as="a" href={item.href} my="1rem" padding="6px 18px">
             <FlexBox alignItems="center" m="6px" flex="2 2 220px !important">
-              <Avatar src="/assets/images/products/imageshoes.png" size={36} />
+              <Avatar src="https://www.fnp.com/images/pr/l/v20190729193343/colorful-balloons-decor_1.jpg" size={36} />
               <Typography textAlign="left" ml="20px">
                 Nike React Phantom Run Flyknit 2
               </Typography>

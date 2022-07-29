@@ -12,7 +12,7 @@ export interface AvatarProps extends BorderProps, ColorProps {
 const Avatar: React.FC<AvatarProps> = ({ src, size, children, ...props }) => {
   return (
     <StyledAvatar size={size} {...props}>
-      {src && <img src={src} alt="avatar" />}
+      {src && <img src={src} alt="avatar" style={{objectFit: 'contain'}}/>}
       {!src && children && <span>{children}</span>}
     </StyledAvatar>
   );

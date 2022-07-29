@@ -111,10 +111,10 @@ const categories = [
 ];
 
 const dummySearchResult = [
-  "Macbook Air 13",
-  "Ksus K555LA",
-  "Acer Aspire X453",
-  "iPad Mini 3",
+  "Chocolates",
+  "Cakes",
+  "Chocolates",
+  "Cakes",
 ];
 
 export default SearchBox;

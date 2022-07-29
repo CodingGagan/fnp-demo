@@ -237,7 +237,7 @@ const navigations = [
         // },
       ],
       rightImage: {
-        imgUrl: "/assets/images/promotion/offer-1.png",
+        imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
         href: "/sale-page-1",
       },
     },
@@ -484,7 +484,7 @@ const navigations = [
         // },
       ],
       bottomImage: {
-        imgUrl: "/assets/images/promotion/offer-5.png",
+        imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/hero-banners/left-banner-755_25jul_2.jpg",
         href: "/",
       },
     },
@@ -728,7 +728,7 @@ const navigations = [
         // },
       ],
       rightImage: {
-        imgUrl: "/assets/images/promotion/offer-1.png",
+        imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
         href: "/sale-page-1",
       },
     },
@@ -961,7 +961,7 @@ const navigations = [
         },
       ],
       // rightImage: {
-      //   imgUrl: "/assets/images/promotion/offer-1.png",
+      //   imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
       //   href: "/sale-page-1",
       // },
     },
@@ -1112,7 +1112,7 @@ const navigations = [
         },
       ],
       rightImage: {
-        imgUrl: "/assets/images/promotion/offer-1.png",
+        imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
         href: "/sale-page-1",
       },
     },
@@ -1195,7 +1195,7 @@ const navigations = [
         },
       ],
       rightImage: {
-        imgUrl: "/assets/images/promotion/offer-1.png",
+        imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
         href: "/sale-page-1",
       },
     },
@@ -1329,7 +1329,7 @@ const navigations = [
         }
       ],
       // rightImage: {
-      //   imgUrl: "/assets/images/promotion/offer-1.png",
+      //   imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
       //   href: "/sale-page-1",
       // },
     },
@@ -1423,7 +1423,7 @@ const navigations = [
         },
       ],
       // rightImage: {
-      //   imgUrl: "/assets/images/promotion/offer-1.png",
+      //   imgUrl: "https://www.fnp.com/assets/images/custom/new-desk-home/combos/Plant_2apr.jpg",
       //   href: "/sale-page-1",
       // },
     },

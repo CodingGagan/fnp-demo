@@ -81,10 +81,10 @@ const GrocerySearchBox: React.FC<GrocerySearchBoxProps> = () => {
 };
 
 const dummySearchResult = [
-  "Macbook Air 13",
-  "Ksus K555LA",
-  "Acer Aspire X453",
-  "iPad Mini 3",
+  "Chocolates",
+  "Cakes",
+  "Chocolates",
+  "Cakes",
 ];
 
 export default GrocerySearchBox;
