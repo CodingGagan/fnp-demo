@@ -10,16 +10,16 @@ import { Small } from "../Typography";
 import StyledTopbar from "./Topbar.style";
 
 const Topbar: React.FC = () => {
-  const [currency, setCurrency] = useState(currencyList[0]);
-  const [language, setLanguage] = useState(languageList[0]);
+  // const [currency, setCurrency] = useState(currencyList[0]);
+  // const [language, setLanguage] = useState(languageList[0]);
 
-  const handleCurrencyClick = (curr) => () => {
-    setCurrency(curr);
-  };
+  // const handleCurrencyClick = (curr) => () => {
+  //   setCurrency(curr);
+  // };
 
-  const handleLanguageClick = (lang) => () => {
-    setLanguage(lang);
-  };
+  // const handleLanguageClick = (lang) => () => {
+  //   setLanguage(lang);
+  // };
 
   useEffect(() => {
     // get language from browser
@@ -47,7 +47,7 @@ const Topbar: React.FC = () => {
             <span>support@ui-lib.com</span>
           </FlexBox>
         </FlexBox>
-        <FlexBox className="topbar-right" alignItems="center">
+        {/* <FlexBox className="topbar-right" alignItems="center">
           <NavLink className="link" href="/faq">
             Theme FAQ"s
           </NavLink>
@@ -107,7 +107,7 @@ const Topbar: React.FC = () => {
               </MenuItem>
             ))}
           </Menu>
-        </FlexBox>
+        </FlexBox> */}
       </Container>
     </StyledTopbar>
   );
