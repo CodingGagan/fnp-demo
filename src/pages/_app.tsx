@@ -39,10 +39,10 @@ const App = ({ Component, pageProps }: any) => {
         />
 
         {/* Google analytics */}
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-SGG7GE7HZC"
-        ></script>
+        ></script> */}
         <script
           dangerouslySetInnerHTML={{
             __html: `

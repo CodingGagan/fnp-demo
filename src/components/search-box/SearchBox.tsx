@@ -101,13 +101,13 @@ const SearchBox: React.FC<SearchBoxProps> = () => {
 
 const categories = [
   "All Categories",
-  "Car",
-  "Clothes",
-  "Electronics",
-  "Laptop",
-  "Desktop",
-  "Camera",
-  "Toys",
+  "Chocolates",
+  "Flower",
+  "Anniversary",
+  "Cakes",
+  "Plants",
+  "Customize",
+  "Special",
 ];
 
 const dummySearchResult = [

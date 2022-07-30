@@ -11,15 +11,15 @@ import StyledTopbar from "./Topbar.style";
 
 const Topbar: React.FC = () => {
   const [currency, setCurrency] = useState(currencyList[0]);
-  // const [language, setLanguage] = useState(languageList[0]);
+  const [language, setLanguage] = useState(languageList[0]);
 
   const handleCurrencyClick = (curr) => () => {
     setCurrency(curr);
   };
 
-  // const handleLanguageClick = (lang) => () => {
-  //   setLanguage(lang);
-  // };
+  const handleLanguageClick = (lang) => () => {
+    setLanguage(lang);
+  };
 
   useEffect(() => {
     // get language from browser
@@ -54,7 +54,7 @@ const Topbar: React.FC = () => {
           <NavLink className="link" href="/help">
             Need Help?
           </NavLink> */}
-          {/* <Menu
+          <Menu
             direction="right"
             handler={
               <FlexBox
@@ -80,7 +80,7 @@ const Topbar: React.FC = () => {
                 <Small fontWeight="600">{item.title}</Small>
               </MenuItem>
             ))}
-          </Menu> */}
+          </Menu>
           <Menu
             direction="right"
             handler={
