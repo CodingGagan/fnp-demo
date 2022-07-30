@@ -37,6 +37,7 @@ const primaryColor = {
 const secondaryColor = {
   light: "rgba(15, 52, 96, 0.2)",
   main: "rgba(15, 52, 96, 1)",
+  custom: "rgb(237 28 36)",
   dark: "#303A47",
   text: "#ffffff",
   900: "#041533",

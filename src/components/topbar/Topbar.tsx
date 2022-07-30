@@ -10,12 +10,12 @@ import { Small } from "../Typography";
 import StyledTopbar from "./Topbar.style";
 
 const Topbar: React.FC = () => {
-  // const [currency, setCurrency] = useState(currencyList[0]);
+  const [currency, setCurrency] = useState(currencyList[0]);
   // const [language, setLanguage] = useState(languageList[0]);
 
-  // const handleCurrencyClick = (curr) => () => {
-  //   setCurrency(curr);
-  // };
+  const handleCurrencyClick = (curr) => () => {
+    setCurrency(curr);
+  };
 
   // const handleLanguageClick = (lang) => () => {
   //   setLanguage(lang);
@@ -47,14 +47,14 @@ const Topbar: React.FC = () => {
             <span>support@ui-lib.com</span>
           </FlexBox>
         </FlexBox>
-        {/* <FlexBox className="topbar-right" alignItems="center">
-          <NavLink className="link" href="/faq">
+        <FlexBox className="topbar-right" alignItems="center">
+          {/* <NavLink className="link" href="/faq">
             Theme FAQ"s
           </NavLink>
           <NavLink className="link" href="/help">
             Need Help?
-          </NavLink>
-          <Menu
+          </NavLink> */}
+          {/* <Menu
             direction="right"
             handler={
               <FlexBox
@@ -80,7 +80,7 @@ const Topbar: React.FC = () => {
                 <Small fontWeight="600">{item.title}</Small>
               </MenuItem>
             ))}
-          </Menu>
+          </Menu> */}
           <Menu
             direction="right"
             handler={
@@ -107,7 +107,7 @@ const Topbar: React.FC = () => {
               </MenuItem>
             ))}
           </Menu>
-        </FlexBox> */}
+        </FlexBox>
       </Container>
     </StyledTopbar>
   );

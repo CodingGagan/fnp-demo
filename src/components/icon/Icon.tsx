@@ -33,7 +33,7 @@ const Icon = ({ children }: IconProps) => {
     // />
 
     // <Iimg >
-    <div style={{ display: 'flex', height: '1.25rem', width: '1.25rem' }}>
+    <div style={{ display: 'flex', height: '1.25rem', width: '1.25rem' , color: 'white' }}>
       <img src={`http://localhost:3000/assets/images/icons/${children}.svg`} alt="" />
     </div>
     // </Iimg>
